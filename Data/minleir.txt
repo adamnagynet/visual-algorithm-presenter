@@ -1,0 +1,5 @@
+﻿	A rendezési tehnikák e családja az ismételt kiválasztáson alapszik. Ez esetben a legegyszerûbb kiválasztásos módszert ismertetem, a minimumkiválasztási módszert, melynek lépései a következõk:
+	1. Megkeressük a legkisebb elemet, melyet felcseréljük az elsõ elemmel.
+	2. Ismételjük az elso lépést, de most már a második legkisebb elemet választjuk ki, mivel ekkor már csak a második elemtõl hátrafele keresünk.
+	3. Az elsõ lépést folytatjuk mindaddig, amíg az összes elemet a helyére nem tettük.
+

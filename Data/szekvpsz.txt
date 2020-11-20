@@ -1,0 +1,17 @@
+﻿i <- 1
+
+ciklus
+
+        amíg (i<=n) és (mit<>et[i])
+
+           i <- i+1
+
+ciklus vége
+
+ha i>n
+
+    kiír(nincs)
+
+különben
+
+    kiír(i)

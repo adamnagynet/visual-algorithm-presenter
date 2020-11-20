@@ -1,0 +1,1 @@
+﻿	Kezdjük az elején és keressünk addig, amíg nem találjuk meg a helyes adatot, akkor stop. Ez a szekvenciális keresés legkézenfekvõbb útja, és hasznos kiindulópontot nyújt a kereséssel kapcsolatos vizsgálódásainknak, mivel sok, jóval bonyolúltabb eljárás ezen alapul.

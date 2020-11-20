@@ -1,0 +1,27 @@
+﻿e <- 1
+
+u <- n
+
+ciklus
+
+        k <-  (e+u) / 2
+
+        ha mit < tömb[k] 
+
+            u <- k-1
+
+        különben
+
+            ha mit > tömb[k]
+
+                e=k+1
+
+amíg (e>u) vagy (mit = tömb[k])
+
+ha e>u 
+
+    kiír(megvan)
+
+különben
+
+    kiír(nincs)

@@ -1,0 +1,17 @@
+﻿ciklus i=2 -> n
+
+	j <- i-1
+
+	be <- tömb[i]
+
+	amíg (j > 0) és (be < tömb[j])
+
+		tömb[j+1] <- tömb[j]
+
+		j <- j-1
+
+	amíg vége
+
+	tömb[j+1] <- be
+
+ciklus vége

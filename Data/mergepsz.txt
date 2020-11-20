@@ -1,0 +1,13 @@
+﻿program merge sort;
+type 
+	tomb=array [1..100] of integer;
+var
+	n,i:integer;
+	et:tomb;
+
+procedure fesul(e,u,k:integer);
+var
+	k1,e1,I,j:integer;
+	x:tomb;
+begin
+	

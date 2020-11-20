@@ -1,0 +1,17 @@
+﻿k <- 1
+v[1] <- a[1]-h[k]
+ciklus amíg k>0
+	ciklus
+		következõ(jó,v,k)
+		ha van
+			megfelelõ (jó,v,k)
+	amíg (van = false) vagy (van és jó)
+	ha van
+		ha megoldás(k)
+			kiír(k)
+		különben
+			k <- k+1
+			v[k] <- a[k]-h[k]
+	különben
+		k <- k-1
+ciklus vége

@@ -1,0 +1,3 @@
+﻿{Azért, mert ahhoz, hogy egy komponenst ujrafessen, meghívódik a repaint, de amit a tpanel szolgaltat, nem eleg, mert nem tartalmaz bizonyos szukseges kodot, ezert kitarjesztem es uj metodust csinalok belole.}
+
+	Az algoritmus alapötlete: a rendezendõ tömböt feloszuk két egyenlő részre, majd a felosztott tömböt megint, mindaddig, amíg egy olyan résztömböt nem kapunk, amelynek legtöbb két eleme van, amelyet már könnyedén rendezhetünk. 	A kapott résztömböket összefésüljük.

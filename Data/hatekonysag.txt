@@ -1,0 +1,18 @@
+﻿	Az informatika egyik legrégebbi története a Hanoi tornyairól szóló legenda.
+	E legenda szerint egyszer régen, nagyon régen Hanoi egyik temploma elõtt állt három oszlop: az elsõ rézbõl volt,a második ezüstbõl, a harmadik aranyból. A rézoszlopon száz, porfírból készült lyukas korongot raktak egymásra. A korongok mérete alulról felfele egyre csökkent.
+	Egy öreg szerzetes nekilátott, hogy a porfírkorongokból álló tornyot a rézoszlopról átvigye az aranyoszlopra, de úgy, hogy mindig a legfelső korongot tegye át valamelyik oszlopról egy másikra, ügyelve arra, hogy soha ne tegyen nagyobb korongot kisebbre. Amikor majd a szerzetes ezzel a munkával elkészül, a legenda szerint akkor jön el a világ vége.
+	Szerzetesünk hamar megértette, hogy munkájában fel kell használnia az ezüstoszlopot is. Leült asztalkájához, hogy tervet készítsen.
+	Sokat törte a fejét, gondolkodott, meditált, majd hirtelen világosság töltötte el: a feladatot három lépésben meg tudja oldani!
+	1. lépés : átviszem a rézoszlopon levõ, 99 korongból álló tornyot az ezüstoszlopra,
+	2. lépés : átviszem az utolsó, legnagyobb korongot a rézoszlopról az aranyoszlopra,
+	3. lépés : végül átviszem az ezüstoszlopon levõ, 99 korongból álló tornyot az ezüstoszlopról az aranyoszlopra.
+
+	Elképzelésén rágódva a szerzetes rájött, hogy az 1. és a 3. lépést a legnehezebb végrehajtania. Mivel nemcsak öreg volt hanem bölcs is, úgy döntött, hogy ezt a munkát a legöregebb tanítvánnyal végezteti el. Amikor a tanítvány befejezi az elsõ lépésben leírt feladatot, a mi szerzetesünk fogja a legnagyobb korongot, azt, amelyik a rézoszlopon van, és saját maga átviszi az aranyoszlopra. Ezután megint igénybe veszi a legöregebb tanítványa szolgálatait.
+	Hogy ne terhelje meg túlságosan a legöregebb tanítványát, aki bizony maga sem volt éppen fiatal, úgy döntött, közli vele a tervét, hogy a munkáját õ is egyszerûbbé tehesse.
+	A szerzetes másnap kiszögezte a templom kapujára az algoritmus leírását:
+	*  Abban az esetben, ha a torony egynél több korongból áll, bízd meg a legöregebb tanítványodat, hogy a szóban forgó torony felsõ n-1 korongját vigye át az elsõ oszlopról a harmadikra, miközben a másodikat használhatja.
+	*  Vidd át magad az els? oszlopon maradt egyetlen korongot a másodikra.
+	*  Abban az esetben, ha a torony egynél több korongból áll, bízd meg a legöregebb tanítványodat, hogy a szóban forgó torony felsõ n-1 korongját vigye át a harmadik oszlopról a másodikra, miközben az elsõt használhatja.
+	Mikor a szerzetes elkészült a mûvel szundított egy keveset. Felkelvén, magához hívatta a legöregebb tanítványát, és megbízta, hogy a felsõ 99 korongból álló tornyot a rézoszlopról vigye át az ezüstoszlopra az aranyoszlop felhasználásával, és ha végzett a munkával jelentse.
+
+	jelölések: n – a korongok száma, a,b,c – a korongok

@@ -1,0 +1,21 @@
+﻿ciklus i=0 -> 5
+
+	darab[i] <- 0
+
+ciklus i=1 -> n
+
+	darab[tömb[i]] <- darab[tömb[i]]
+
+ciklus i=1 -> 5
+
+	darab[i] <- darab[i-1] + darab[i]
+
+ciklus i=1 -> n
+
+	új[darab[tömb[i]]] <- tömb[i]
+
+	darab[tömb[i]] <- darab[tömb[i]] – 1
+
+ciklus vége
+
+tömb <- új

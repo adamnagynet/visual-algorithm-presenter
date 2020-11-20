@@ -1,0 +1,2 @@
+﻿         Adott egy nxn -es sakktábla. Helyezzünkel rajta n királynõt, úgy, hogy egyik se üsse a másikat! (nem helyezhetünk ugyanabba a sorba, oszlopba vagy átlóra két királynõt)
+         A feladatban a rózsaszín körök jelölik a királynoket, a zöld színu négyzetek pedig a vermet alkotják Ez esetben, mert megoldást találtunk, zöld a verem színe, de nem megfelelő megoldások esetén krém színu.

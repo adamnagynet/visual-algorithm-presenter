@@ -1,0 +1,4 @@
+﻿	„Divide et impera” jelentése „Oszd meg es urald”.
+	Adott feladattípusok megoldására szolgáló módszer, amely a következõ ötleten alapszik: a feladatot felosszuk több ugyanolyan típusu részfeladatra, melyeket könnyedén meg tudunk oldani, a kapott eredmények kombinációjából kapjuk meg az eredeti feladat eredményét. A fennti leírás alapján nyílvánvaló, hogy a „Divide et Impera” algoritmusa egy rekurzív algoritmus, ahol a rekúrzió egy adott szintjén két lehetséges esetem van:
+	*  eljutottam egy olyan részfeladathoz, amely könnyedén megoldható, a megoldás után visszatérünk (megállási feltétel)
+	*  ha nem jutottunk el meg az 1. pontban említett esethez, akkor a feladatot két vagy több részfeladatra bontjuk, és mindegyik részfeladatra meghívjuk ugyanazt az alprogramot, a legvégén az eredmények kombinációjából megkapjuk az eredeti feladat eredményét.

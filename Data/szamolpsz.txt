@@ -1,0 +1,29 @@
+﻿ciklus i=1 -> n 
+
+	index[i] <- 1
+
+ciklus vége
+
+ciklus i=2 -> n
+
+	ciklus j=1 -> i-1
+
+		ha tömb[i] > tömb[j]
+
+			index[i] <- index[i] + 1
+
+		különben
+
+			index[j] <- index[j] + 1
+
+	ciklus vége
+
+ciklus vége
+
+ciklus i=1 -> n
+
+	új[index[i]] <- tömb[i]
+
+	et <- új
+
+ciklus vége

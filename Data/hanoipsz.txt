@@ -1,0 +1,17 @@
+﻿eljárás hanoi(n,a,b,c)
+
+ha n=1 akkor
+
+	kiir(a,b)
+
+különben
+
+	hanoi(n-1,a,c,b)
+
+	kiir(a,b)
+
+	hanoi(n-1,c,b,a)
+
+ha vége
+
+eljárás vége

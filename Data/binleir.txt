@@ -1,0 +1,3 @@
+﻿	Amikor egy nagy adatállományban keresünk, akkor a szekvenciális keresés túl lassú lenne, egy rendezési reláció roppant egyszeru módon leegyszerûsíti feladatunkat. Egy rendezett sorban való keresés az alapötlete, hogy az adott kulcsú adatot a tömb középsõ elemével hasonlítjuk össze. Ennek a próbálkozásnak az eredménye megmondja, hogy a tömb melyik felébe érdemes folytatnunk a keresést. Aztán újra alkalmazható ugyanaz az eljárás a kiválaszott féltömb középsõ elemére, stb.
+
+	jelölések: e - az intervallum elsõ indexe, u -  az intervallum utolsó indexe, k - az intervallum közepe

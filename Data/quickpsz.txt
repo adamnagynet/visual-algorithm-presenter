@@ -1,0 +1,13 @@
+﻿         eljárás quicksort(ah,fh:természetes számok);
+         
+         ha ah<fh akkor
+         
+         k <- szetvalogat(ah,fh)
+         
+              quicksort(ah,k-1)
+         
+              quicksort(k+1,fh)
+         
+         ha vége
+         
+         eljárás vége

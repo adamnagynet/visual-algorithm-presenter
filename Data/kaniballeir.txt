@@ -1,0 +1,14 @@
+	A foly¢ egyik partj n n kannib l ‚s m misszion rius van.Ezek mind  t szeretn‚nek kelni a foly¢n a rendelkez‚skre  ll¢ k‚tszem‚lyes cs¢nakkal.Tudjuk azt is hogy, hogy, ha valamelyik parton t”bb kannib l van mint ah ny misszion rius, a kannib lok megzab lj k a misszion riusokat.rjunk  egy olyan programot,amely ki¡rja az ”sszes  tsz ll¡t si lehet“s‚get.
+	K¢doljuk az  tkel‚seket a k”vetkez“ k‚ppen:
+		1:  tmegy k‚t kannib l
+		2:  tmegy k‚t misszion rius
+		3:  tmegy egy kannib l ‚s egy misszion rius
+		4:  tmegy egy kannib l
+		5:  tmegy egy misszion rius
+	A backtracking veremben a k”vetkez“ket fogja t rolni:
+	- az  tkel‚s fajt j t
+	- a kannib lok sz m t a bal parton
+	- a misszion riusok sz m t a bal parton
+	- a kannib lok sz m t a jobb parton
+	- a misszion riusok sz m t a jobb parton
+A ?K”vetkez“? n”veli az  tkel‚s k¢dj t (ha ez lehets‚ges), a ?Megfelel“? ellen“rzi, hogy a k-ik szinten lehets‚ges-e az  tkel‚s.

@@ -1,0 +1,25 @@
+﻿k <- 0
+
+ciklus
+
+        mutató <- true
+
+        ciklus 1 -> n-k-1
+
+           ha et[i] > et[i+1]
+
+	segéd <- et[i]
+
+	et[i] <- et[i+1]
+
+	et[i+1] <- segéd
+
+	mutató <- false
+
+           ha vége
+
+           k=k+1
+
+        ciklus vége
+
+amíg mutató = true

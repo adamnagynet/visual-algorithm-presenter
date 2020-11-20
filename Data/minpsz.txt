@@ -1,0 +1,23 @@
+﻿ciklus i=1 -> n
+
+	min <- tömb[i]
+
+	hol <- i
+
+	ciklus j=i+1 -> n
+
+		ha tömb[j] < min
+
+			min <- tömb[j]
+
+			hol <- j
+
+		ha vége
+
+	ciklus vége
+
+		tömb[hol] <- tömb[i]
+
+		tömb[i] <- min
+
+ciklus vége

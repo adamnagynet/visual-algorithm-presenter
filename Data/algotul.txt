@@ -1,0 +1,11 @@
+﻿Algoritmus tulajdonságai:
+  *  Meghatározottság
+  *  Végesség - közölhetõ véges számú útasítással
+  *  Kiszámító személytõl függetlenség
+  *  Bármikor bárki által ugyanolyan eredménnyel megismételhetõ
+  *  Széleskörûség.
+
+Az algoritmus tervezésének követelményei:
+  * Az egyes részlépéseknek végrehajthatónak kell lennie.
+  * A lépéseknek egyértelmûnek kell lenni. Ez biztosítja, hogy tetszõlegesen sokszor végrehajtva, mindig ugyanazt a részeredményt kapjuk.
+  * A részlépéseket véges sokszor kell végrehajtani.

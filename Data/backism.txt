@@ -1,0 +1,20 @@
+﻿	A backtracking módszer magyar megfelelõje a visszalépéses keresés.
+	Azon feladatok megoldására alkalmazható, hol a megoldás egy egydimenziós tömb segítségével tárolható v=[v(1), v(2), ..., v(n)] eleme M-nek, ahol M=M(1) x M(2) x ... x M(n), i=1 -> n véges halmazok. Feladattól függõen adottak a v(1), v(2), ..., v(n) komponensek közötti úgynevezett belsõ feltételek. Az "M" a lehetséges megoldások halmaza. Mindazokat a lehetséges megoldásokat amelyek teljesítik a belsõ feltételeket eredményes megoldásnak nevezzük.
+	Megjegyzés:
+	*  nem minden feladat esetében ismert elõre az n
+	*  a v(1),v(2), ..., v(n) lehet tömb is
+	*  több feladat esetében a lehetséges megoldások halmazai megegyeznek.
+
+	A backtracking módszert alkalmazva megkapjuk az adott feladat összes lehetséges megoldását a következõ képpen:
+	*  a v tömb elemei rendre értéket kapnak úgy, hogy az x(k)-ik elem csak akkor kaphat értéket ha v(1), v(2), ..., v(k-1) már van értéke
+	*  a v(k+1) -ik elemnek csak akkor adunk értéket, ha a folytatási feltétel teljesül, tehát a v(k) teljestíti a belsõ feltételeket az eddig kapott elemekkel:
+		*  ha nem teljesíti akkor a v(k) -ik elemnek a lehetséges megoldások halmazából egy másik értéket kell választani, ha ez lehetséges
+		*  ha nincs akkor vissza kell lépni a v(k-1) -ik elemre és más értéket választani.
+
+	Megjegyzés:
+	*  amint látható a belsõ feltételek és a folytatási feltételek szorosan kapcsolatban vannak egymással
+	*  az egydimenziós tömb felfogható veremként is, mivel mindig a végére teszünk be új elemet, visszalépés esetében a legútolsó elemet eltávolítjuk és az alatta lévõ elemmel dolgozunk tovább
+	*  a verem k-ik szintkére érve mindig az elsõ lépésbe az adott elemnek kezdo értéket kell adni (az init eljárás során)
+	*  abban az esetben, amikor a tovább lépési feltétel nem teljesül, meg kell keresni a lehetséges megoldáshalmaz következo elemét (következo nevu eljárásban)
+	*  a k-ik elemnek mindig teljesítenie kell a belsõ feltételeket az elõtte lévõ elemekkel (megfelelõ nevû eljárás)
+	*  ha megkaptuk a tömb összes elemét, akkor kiíratjuk.

@@ -1,0 +1,3 @@
+﻿	Egy tömb elemeit növekvõ sorrendbe rendezettnek tekintjük, ha annak i -ik eleme a tömb pontosan i-1 eleménél nagyobb vagy egyenlõ. A rendezés alapötlete, hogy minden egyes elemre megszámoljuk, hogy hány nála kisebb elem van. Az így kapott számokat egy másik tömbben tároljuk, ahonnan minden elemnek kiszámoljuk a végsõ helyét, amelynek segítségével újra rendezzük az eredeti tömb elemeit. A számolás a következo képpen történik: ha a tömb i -ik eleme k-1 elemnél nagyobb, akkor a rendezett tömbben a k-ik helyen lesz (tehát az adott elemet megelõzõ elemek számához hozzáadva egyet, megkapjuk annak végsõ helyét a rendezett tömbben).
+
+	jelölések: index - az adott elem helyét tartalmazó tömb, új - az új tömb, amelybe az index alapján az elemeket rendezzük
