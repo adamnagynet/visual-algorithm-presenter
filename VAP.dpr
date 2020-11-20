@@ -45,6 +45,7 @@ begin
   sleep(7000);
   splashForm.hide;
   splashForm.free;
+  randomize;
   Application.Title := 'Visual Algorithm Presenter';
   Application.HelpFile := 'vaphelp.chm';
   Application.CreateForm(TMainForm, MainForm);
